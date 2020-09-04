@@ -36,7 +36,7 @@ function App() {
           
         </div>
         <h1 className="seeyou">see you soon</h1>
-        <p className="credit"><i className="far fa-copyright"></i>Designed and created by moscal</p>
+        <p className="credit"><i className="far fa-copyright"></i>Design and create by moscal</p>
         </div>
 
     </div>
