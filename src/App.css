@@ -1,38 +1,94 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  background-color: #fff;
+
+}
+
+.landing-image{
+  position: relative;
+  background: url('./img/unk1.jpg') no-repeat center bottom/cover;
+  height: 100vh;
+}
+
+.wrapper{
+  padding: 2rem 0rem;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row nowrap;
+}
+
+
+.media{
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.media i{
+  color: #fff;
+  font-size: 2.2rem;
+
+}
+.fab:hover{
+  color: #7bdff2;
+}
+
+
+.title{
+  font-size: 1.3rem;
+  color: #fff;
+}
+.title:hover{
+  color: #7bdff2;
+}
+
+
+.details{
+  font-size: 1.3rem;
+  color: #fff;
+  padding-top: 8rem;
+  padding-left: 20%;
+}
+.date:hover{
+  color: #ff7f51;
+}
+
+.details:hover{
+  color: #7bdff2;
+}
+
+.line-up {
+  color: #fff;
+  padding-top: 14.5rem;
+  padding-left: 50%;
+  padding-bottom: 0;
+}
+.line-up:hover{
+  color: #7bdff2;
+}
+
+.seeyou{
+padding-top: 5rem;
+color: azure;
+text-align: center;
+}
+.credit{
+  padding-top: 1rem;
+  color: azure;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.seeyou:hover{
+  color: #7bdff2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.credit:hover{
+  color: #7bdff2;
 }
