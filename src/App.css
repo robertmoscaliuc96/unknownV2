@@ -92,3 +92,16 @@ text-align: center;
 .credit:hover{
   color: #7bdff2;
 }
+
+@media (max-width: 900px){
+  .title{
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  .details{
+    font-size: 1.3rem;
+    color: #fff;
+    padding-top: 6rem;
+    padding-left: 20%;
+  }
+}
